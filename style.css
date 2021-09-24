@@ -1,209 +1,254 @@
+html {
+    font-family : 'Raleway', sans-serif;
+}
+
 header {
     display: flex;
     justify-content: space-between;
+    margin: 5px 5px 5px 5px;
+}
+
+#recherche fas icon {
+    border-radius: 20px;
+    color: aqua;
 }
 
 .Logo {
-    width: fit-content;
-    
+    width: 8%; 
+    margin: unset;
 }
+
 .menu {
     text-align: right;
 }
+
+h1 {
+    font-size: larger;
+    margin: unset;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
 h2 {
     font-size: larger;
     margin-left: 10px;
     font-weight: bold;
 }
+
 input {
     font-weight: bold;
     margin: 20px 0px 20px 0px;
 }
-.Rechercher {
-    color: white;
-    background-color: rgb(29, 120, 238);
-    border-radius: 20px;
-    margin-top: 20px;
-    margin-left: 20px;
+
+.menu {
+    margin : 10px 0px 70px 70px; 
 }
 
-button {
+.color {
+    color: #0065FC;
+    text-decoration: none; 
+    margin-left: 50px; 
+    font-size: small;
     font-weight: bold;
-    border-radius: 22px;
 }
-#filtre {
-   
-    margin: 20px 300px 20px 0px;
+
+.act {
+    color: black;
+    text-decoration: none;
+    margin-left: 50px;
+    font-size: small;
+    font-weight: bold;  
 }
-.filtres {
+
+h3 {
+    font-weight: lighter;
+    font-size: medium;
+    margin: unset;
+}
+
+.fa-map-marker-alt {
+    color: black;
+    border: solid #F2F2F2;
+    border-radius:30%;
+    padding: 10px 10px 10px 10px;
+    background-color: #F2F2F2;
+}
+
+.recherche button {
+    border-radius: 20px;
+    color: white;
+    background-color: #0065FC; 
+}
+
+#filtre {  
+    margin: 20px 5%px 20px 0px;
+}
+
+#filtres button {
+    border-radius: 100px;
+    color: black;
+    background-color: white;
+    padding: 5px 5px 5px 5px;
+    margin: unset;  
+}
+
+#filtres {
+    margin: 0px 25% 0px 0px;
     display: flex;
     font-weight: bold;
-    justify-content: space-between;
+    justify-content: space-between
+}
+
+#filtres .fas {
+    color: #0065FC;
+    width: 10%;
+    border: solid #DEEBFF;
+    border-radius: 100px;
+    margin: unset;
+    background-color: #DEEBFF;
+    padding: 10px 10px 10px 10px;
+}
+
+.fa-info {
+    color: #0065FC;
+    margin-right: 10px;
+    border: solid #F2F2F2;
+    border-radius: 100%;
+    padding: 5px 5px 5px 5px;
+}
+
+h5 {
+    margin: 20px 25% 20px 5px;
+}
+
+#Liaison {
+    display: flex;
 }
 
 #Hebergement {
-    width:900px;
-    margin: 20px 700px 0px 0px;
-    border: rgb(231, 229, 229, 0.815);
+    border-radius: 20px;
+    width:60%;
+    border: #F2F2F2;
     font-weight: bold;
-    background-color: rgba(231, 229, 229, 0.815);
+    background-color: #F2F2F2;
     display: flex;  
     flex-wrap: wrap;
 }
-h5 {
-    margin: 20px 600px 10px 0px;
+
+#heberg{
+    margin: 20px 60% 20px 45px;
     font-size: 18px;
-    background-color: rgba(231, 229, 229, 0.815);
-    border:rgba(231, 229, 229, 0.815);
-}
-.Auberge {
-    border: solid;
-}
-.HotelduPort {
-    border: solid;
-}
-.Hotellesmouettes {
-    border: solid;
-}   
-.Hoteldelamer {
-    border: solid;
-}
-.Aubergelepanier {
-    border: solid;
-}
-.HotelchezAmina {
-    border: solid;
+    border: #F2F2F2;
 }
 
-#Nuit {
-    display: flex;
+h4 {
+    margin: 5px 0px 10px 10px;
+}
+
+.Auberge {
+    border: #F2F2F2;
+    border-radius: 20px;
+    background: white;
+    margin-left: 15px;
+    margin-bottom: 50px;
+}
+
+.stars {
+    margin-right: 20px;
+    padding-right: 20px;
+}
+
+img {
+    border-radius: 20px;
+    margin: 5px 5px 5px 5px;
 }
 
 #Afficher {
+    color: black;
     font-size: 18px;
     font-weight: bold;
-    margin: 30px 0px 50px 30px;
-    background-color: rgba(231, 229, 229, 0.815);
-    border:rgba(231, 229, 229, 0.815);
-    display: flex;
+    margin: 0px 70px 55px 20px;
+    text-decoration: unset;
 }
 
 #populaires {
-    margin:23px 0px 0px 0px ;
-    width: 400px;
-    border: solid;
-    background-color: rgb(231, 229, 229, 0.815);
+    font-weight: bold;
+    margin-left: 2%;
+    width: 40%;
+    border-radius: 20px;
+    border: #F2F2F2;
+    background-color: #F2F2F2;
+    
+}
+
+.hotel {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
+    
+    border: #F2F2F2;
+    border-radius: 20px;
+    background: white;
 }
-.lesplus {
-    font-size: 18px;
-    font-weight: bold; 
-}
-.matin {
-    border: solid;
-}
-.Aucoeurdeleau {
-    border: solid;
-}
-.HotelToutbleu {
-    border: solid;
+
+h2 {
+    margin: 10px 0px 0px 10px;
+    font-size: small;
+    
 }
 
 #Activites {
-    width: 1000px;
+    width: 80%;
     display: flex;
-    flex-wrap: wrap;
-    
-    
+    flex-wrap: wrap;   
 }
+
 h6 {
     font-size: 18px;
     font-weight: bold;
 }
 
-
 input {
     border-radius: 10px;
 }
+
 .plus {
     font-weight: bold;
 }
 img {
-    margin: 20px 0px 0px 0px;
     width: 200px;
-    margin-left: 30px;
-    margin-right: 30px;
-}
-figcaption {
-    margin-left: 40px;   
 }
 
 footer {
-    margin: 20px 0px 0px 0px;
+    margin-top: 40px;
     display: flex;
-    justify-content: space-between;
-    border: rgba(231, 229, 229, 0.815);
-    background-color: rgb(231, 229, 229, 0.815);
+    justify-content: space-around;
+    background-color: #F2F2F2;
 }
 
-#propos {
-    margin: 0px 30px 30px 0px;
-    display: flex;
-    flex-direction: column;
-}
 .pro {
-    margin: 20px 10px 15px 0px;
+    margin-top: 20px;
     font-size: 18px;
     font-weight: bold;
-}
-.vente {
-    margin: 0px 10px 10px 10px;
-    display: flex;
-}
-.Donnees {
-    margin: 0px 10px 10px 0px;
-    display: flex;
-}
-
-#nosheberg {
-    margin: 10px 0px 0px 0px;
-    font-size: 18px;
-    display: flex;
-    flex-direction: column; 
 }
 
 .Nos {
-    margin: 10px 30px 10px 0px;
+    margin-top: 20px;
     font-size: 18px;
     font-weight: bold;
 }
-.charte{
-    margin: 27px 0px 40px 0px;
-}
 
-.hotel {
-    font-size: larger;
-    margin: 10px 10px 0px 0px;
-    display: flex;
-}
-
-#assistance {
-    margin: 10px 280px 30px 30px;
-}
 .Assistance {
-    margin: 15px 0px 0px 0px;
-}
-.ass {
-    margin: 10px 0px 0px 0px;
-    font-size: 18px;
+    font-size: large;
+    text-decoration: unset;
+    margin-top: 20px;
     font-weight: bold;
 }
-.aide {
-    margin: 80px 0px 0px 0px;
-}
 
-.contacter {
+.ass {
+    color: black;
+    text-decoration: unset;
     margin: 10px 0px 0px 0px;
-    display: flex;
+    font-size: 18px;
+    display: flex;   
 }
