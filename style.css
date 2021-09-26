@@ -8,11 +8,6 @@ header {
     margin: 5px 5px 5px 5px;
 }
 
-#recherche fas icon {
-    border-radius: 20px;
-    color: aqua;
-}
-
 .Logo {
     width: 8%; 
     margin: unset;
@@ -22,19 +17,14 @@ header {
     text-align: right;
 }
 
-h1 {
-    font-size: larger;
-    
-}
-
 h2 {
     font-size: small;
     margin: 5px 0px 0px 20px;
-    font-weight: unset;
+    font-weight: normal;
 }
 h4 {
     margin: 0px 0px 0px 20px;
-    font-weight: unset;
+    
 }
 .stars {
     font-size: small;
@@ -82,15 +72,29 @@ h3 {
 .fa-map-marker-alt {
     color: black;
     border: solid #F2F2F2;
-    border-radius:30%;
+    border-radius:20%;
     padding: 10px 10px 10px 10px;
     background-color: #F2F2F2;
 }
 
 .recherche button {
-    border-radius: 20px;
+    border-radius: 10px;
+    padding: 10px 10px 10px 10px;
     color: white;
     background-color: #0065FC; 
+}
+.holder {
+    width: 15%;
+    font-size: 15px;
+    border: #F2F2F2 solid;
+    border-radius: unset;
+    padding: 10px 10px 10px 10px;
+}
+
+h6 {
+    font-size: 20px;
+    font-weight: bold;
+    margin: unset;
 }
 
 #filtre {  
@@ -106,7 +110,7 @@ h3 {
 }
 
 #filtres {
-    margin: 0px 25% 0px 0px;
+    margin: 0px 25% 20px 0px;
     display: flex;
     font-weight: bold;
     justify-content: space-between
@@ -114,10 +118,8 @@ h3 {
 
 #filtres .fas {
     color: #0065FC;
-    width: 10%;
     border: solid #DEEBFF;
-    border-radius: 100px;
-    margin: unset;
+    border-radius: 50%;
     background-color: #DEEBFF;
     padding: 10px 10px 10px 10px;
 }
@@ -130,18 +132,16 @@ h3 {
     padding: 5px 5px 5px 5px;
 }
 
-h5 {
-    margin: 20px 25% 20px 5px;
-}
-
 #Liaison {
     display: flex;
 }
 
 #Hebergement {
     border-radius: 20px;
+    margin-top: 30px;
+    margin-bottom: 40px;
     width:60%;
-    height: 600px;
+    height: 700px;
     border: #F2F2F2;
     font-weight: bold;
     background-color: #F2F2F2;
@@ -150,8 +150,8 @@ h5 {
 }
 
 #heberg{
-    margin: 30px 60% 20px 40px;
-    font-size: 18px;
+    margin: 30px 50% 0px 40px;
+    font-size: 20px;
     border: #F2F2F2;
 }
 
@@ -165,8 +165,8 @@ h5 {
 }
 
 img {
-    width: 90%;
-    height: 130px;
+    width: 190px;
+    height: 140px;
     border-radius: 20px;
     margin: 5px 5px 5px 5px;
 }
@@ -181,17 +181,32 @@ img {
 
 #populaires {
     font-weight: bold;
-    margin-left: 2%;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    margin-left: 3%;
     width: 40%;
     border-radius: 20px;
     border: #F2F2F2;
     background-color: #F2F2F2;
-    
+}
+h1 {
+    margin-left: 10%;
+    margin-top: 30px;
+    font-size: 20px; 
+}
+
+#Flex {
+    display: flex;
+    justify-content: space-between;
+}
+.fa-chart-line {
+    font-size: large;
+    margin: 30px 30px 30px 30px;
 }
 
 .hotel {
-    width: 90%;
-    height: 130px;
+    width: 85%;
+    height: 150px;
     margin-top: 20px;
     display: flex;
     flex-direction: column;
@@ -199,17 +214,34 @@ img {
     border: #F2F2F2;
     border-radius: 20px;
     background: white;
+    margin: 0px 0px 30px 35px;
+}
+
+h5 {
+    font-size: large;
+    margin: 0px 0% 0px 0px;
 }
 
 #Activites {
     width: 80%;
     display: flex;
-    flex-wrap: wrap;   
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 20px;   
 }
-
-h6 {
-    font-size: 18px;
-    font-weight: bold;
+#Activites img {
+    width: 100%;
+    height: 140px;
+    border-radius: 20px;
+    margin: unset;
+    
+}
+.Fort {
+    border: solid white;
+    border-radius: 20px;
+}
+#Activites .vieux {
+    font-size: larger;
 }
 
 input {
@@ -218,9 +250,6 @@ input {
 
 .plus {
     font-weight: bold;
-}
-img {
-    width: 200px;
 }
 
 footer {
