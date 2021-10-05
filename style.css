@@ -48,9 +48,7 @@ h4 {
 .fa-star {
     color: #0065FC;
     margin-top: 5px;
-    margin-right: 3px;
-    
-    
+    margin-right: 3px;  
 }
 
 input {
@@ -167,8 +165,6 @@ h6 {
     border-radius: 20px;
     margin-top: 30px;
     margin-bottom: 40px;
-    width:60%;
-    height: 700px;
     border: #F2F2F2;
     font-weight: bold;
     background-color: #F2F2F2;
@@ -177,25 +173,26 @@ h6 {
 }
 
 #heberg{
-    margin: 30px 50% 0px 40px;
+    
     font-size: 20px;
     border: #F2F2F2;
 }
 
 .Auberge {
-    margin-bottom: 40px;
+    
     border: #F2F2F2;
     border-radius: 20px;
     background:white;
-    margin-left: 15px;
     
 }
 
 img {
-    width: 190px;
+    width: calc(100% - 10px);
     height: 140px;
-    border-radius: 20px;
-    margin: 5px 5px 5px 5px;
+    border-radius: 20px 20px 0 0;
+    padding: 5px;
+    object-fit: cover;
+    
 }
 
 #Afficher {
@@ -233,16 +230,14 @@ h1 {
 }
 
 .hotel {
-    width: 85%;
-    height: 150px;
-    margin-top: 20px;
+    flex: 1;
+    margin-left: 20px;
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
+    justify-content: space-around;
     border: #F2F2F2;
-    border-radius: 20px;
     background: white;
-    margin: 0px 0px 30px 35px;
+    
 }
 
 h5 {
@@ -257,17 +252,18 @@ h5 {
     justify-content: space-between;
     margin-top: 20px;   
 }
+
 #Activites img {
     width: 100%;
     height: 140px;
     border-radius: 20px;
     margin: unset;
-    
 }
 .Fort {
     border: solid white;
     border-radius: 20px;
 }
+
 #Activites .vieux {
     font-size: larger;
 }
