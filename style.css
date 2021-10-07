@@ -163,19 +163,22 @@ h6 {
 
 #Hebergement {
     border-radius: 20px;
-    margin-top: 30px;
-    margin-bottom: 40px;
     border: #F2F2F2;
     font-weight: bold;
     background-color: #F2F2F2;
     display: flex;  
     flex-wrap: wrap;
+    
 }
 
 #heberg{
     
     font-size: 20px;
     border: #F2F2F2;
+    width: 80% ;
+    margin-left: 5%;
+   
+    
 }
 
 .Auberge {
@@ -183,12 +186,15 @@ h6 {
     border: #F2F2F2;
     border-radius: 20px;
     background:white;
+    width: calc(33% - 15px);
+    margin: 10px;  
+    height: 210px;  
     
 }
 
-img {
-    width: calc(100% - 10px);
-    height: 140px;
+#Hebergement img {
+    width: 100%;
+    height: 120px;
     border-radius: 20px 20px 0 0;
     padding: 5px;
     object-fit: cover;
@@ -199,19 +205,24 @@ img {
     color: black;
     font-size: 18px;
     font-weight: bold;
-    margin: 0px 70px 55px 20px;
     text-decoration: unset;
 }
 
 #populaires {
+    width: 80%;
     font-weight: bold;
-    margin-top: 30px;
-    margin-bottom: 40px;
     margin-left: 3%;
-    width: 40%;
     border-radius: 20px;
     border: #F2F2F2;
     background-color: #F2F2F2;
+}
+
+#populaires img {
+    width: 100%;
+    height: 130px;
+    border-radius: 20px 0px 0px 20px;
+    padding: 5px;
+    object-fit: cover;
 }
 
 h1 {
@@ -231,12 +242,10 @@ h1 {
 
 .hotel {
     flex: 1;
-    margin-left: 20px;
     display: flex;
-    flex-direction: column;
-    justify-content: space-around;
     border: #F2F2F2;
     background: white;
+    
     
 }
 
