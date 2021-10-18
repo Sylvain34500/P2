@@ -137,6 +137,7 @@ input.holder::placeholder {
 .logement {
     font-size: 15px;
     margin-top: 30px;
+    margin-bottom: 10px;
     color: black;
 }
 
@@ -166,25 +167,25 @@ input.holder::placeholder {
     margin-top: 20px;
 }
 
-h2{
-    font-size: 22px;
+#Hebergement h2{
+    font-size: 21px;
     font-weight: bolder;
     border: #F2F2F2;
     width: 100% ;
-    margin-left: 40px;
-    margin-bottom: unset;
+    margin-left: 30px;
+    margin-bottom: 0px;
     margin-top: 30px;
 }
 
 .Auberge {
-    max-height: 200px;
+    height: 185px;
     border: #F2F2F2;
     border-radius: 20px;
     background:white;
-    width:calc(33.333% - 60px);
+    width:calc(33% - 55px);
     padding: 5px;
     background:white;
-    margin: 0px 20px 0px 20px;
+    margin: 0px 10px 10px 30px;
     box-shadow:lightgrey 5px 5px 20px;
 }
 
@@ -209,7 +210,7 @@ h2{
 }
 
 .star {
-    font-size: 12px;
+    font-size: 11px;
     margin-left: 10px;
     margin-top: 5px;
 }
@@ -233,10 +234,10 @@ h2{
 }
 
 #populaires {
-    width: 30%;
+    width: 35%;
     font-weight: bold;
-    margin-top: 20px;
-    margin-left: 20px;
+    margin-top: 30px;
+    margin-left: 40px;
     border-radius: 20px;
     border: #F2F2F2;
     background-color: #F2F2F2;
@@ -247,42 +248,67 @@ h2{
     justify-content: space-between;
 }
 
+#populaires h2 {
+    font-size: 21px;
+    font-weight: bolder;
+    border: #F2F2F2;
+    width: 100% ;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
 .fa-chart-line {
     font-size: 20px;
-    margin: 35px 30px 30px 30px;
+    margin: 30px 30px 30px 30px;
 }
 
 .hotel {
     display: flex;
-    width: 90%;
-    min-width: 80px;
+    width: 80%;
     border-radius: 20px;
     border: #F2F2F2;
     background: white;
-    margin: 0px 20px 40px 20px;
+    margin: 0px 40px 30px 35px;
     box-shadow:lightgrey 5px 5px 20px;
-    padding: 5px;
+    padding: 4px;
 }
 
 .hotel img {
-    width: 45%;
+    width: 46%;
+    min-width: 120px;
+    max-height: 140px;
+    min-height: 130px;
     border-radius: 20px 0px 0px 20px;
-    object-fit: cover; 
+    object-fit: cover;
+    
 }
 
 h5 {
     width: 100%;
-    font-size: 18px;
-    margin-left: 10px;
-    margin-top: 20px;
+    font-size: 17px;
+    margin-left: 15px;
+    margin-top: 10px;
     margin-bottom: 0px; 
     font-weight: bold;
 }
 
+#populaires .Nuit {
+    margin-left: 15px;
+    margin-top: 5px;
+    font-weight: lighter;
+    
+}
+
 .hotel .stars {
-    font-size: 12px;
-    margin-left: 10px;
-    margin-top: 55px;
+    font-size: 10px;
+    margin-left: 15px;
+    margin-top: 35px;
+}
+
+.hotel .Stars {
+    font-size: 10px;
+    margin-left: 15px;
+    margin-top: 45px;
 }
 
 #act {
