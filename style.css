@@ -463,8 +463,8 @@ footer {
     }
 
     #populaires {
-
-        
+        margin: unset;
+        width: 100%;
     }
 
     #Liaison {
