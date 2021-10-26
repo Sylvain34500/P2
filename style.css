@@ -41,6 +41,14 @@ body {
     text-decoration: none;
 }
 
+.acti {
+    color: black;
+    text-decoration: none;
+    padding: 30px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
 .color:hover {
     border-top: solid;
     color: #0065FC;
@@ -53,16 +61,7 @@ body {
 
 .acti:hover {
     border-top: solid;
-
     color: #0065FC;
-}
-
-.acti {
-    color: black;
-    text-decoration: none;
-    padding: 30px;
-    font-size: 14px;
-    font-weight: bold;
 }
 
 h1 {
@@ -480,38 +479,74 @@ footer {
     display: flex;   
 }
 
+.asss {
+    color: black;
+    text-decoration: unset;
+    margin: 10px 0px 0px 0px;
+    font-size: 18px;
+    display: flex;   
+}
+
 
 @media screen and (max-width:700px)
 {
     header {
-        display: flex;
+        display:flex;
         justify-content:unset;
+        flex-direction: column;
         margin: unset;
-        margin-top: 10px;
     }
 
+    .color {
+        color: black;
+        padding: 0px 25px 10px 25px ;
+        margin: unset;
+        font-size: 17px;
+        font-weight: bold;
+        text-decoration: none;
+    }
+    
     .colors {
         color: black;
-        padding: unset ;
-        margin:unset;
-        font-size: 14px;
+        padding: 20px 30px 0px 30px ;
+        font-size: 17px;
+        margin: unset;
         font-weight: bold;
         text-decoration: none;
         position: absolute;
         top: 0;
-        right: 0;
-       
+        left: 10;
     }
-
     
     .acti {
-       border:unset;  
+        color: black;
+        text-decoration: none;
+        padding: 0px 25px 10px 25px ;
+        font-size: 17px;
+        font-weight: bold;
+    }
+
+    .color:hover {
+        border-bottom: solid;
+        border-top: unset;
+        color: #0065FC;
+    }
+    
+    .colors:hover {
+        border-top: solid;
+        color: #0065FC;
+    }
+    
+    .acti:hover {
+        border-bottom: solid;
+        border-top: unset;
+        color: #0065FC;
     }
 
     h1 {
         margin-top: 30px;
         margin-bottom: unset;
-        font-size: 10px;
+        font-size: 45px;
         font-weight: bolder;
     }
 
@@ -617,7 +652,6 @@ footer {
         border-radius: 20px 20px 0px 0px;
     }
     
-
     .parent {
         display: grid;
         grid-template-columns: 1fr;
@@ -633,31 +667,93 @@ footer {
         .div5 { grid-area: 5 / 1 / 6 / 2; border-radius: 20px; border: solid #F2F2F2 1px; height: unset; box-shadow: #F2F2F2 5px 5px 10px; }
         .div6 { grid-area: 6 / 1 / 7 / 2; border-radius: 20px; border: solid #F2F2F2 1px; height: unset; box-shadow: #F2F2F2 5px 5px 10px; }
     
+        footer {
+            margin-top: 1400px;
+            display: flex;
+            flex-direction: column;
+            background-color: #F2F2F2;
+        }
+        
+        .pro {
+            margin-bottom: 30px;
+        }
+        
+        #nosheberg {
+            margin-left: 40px;
+            margin-top: 20px;
+        }
+        
+        .Nos {
+            margin-top: 20px;
+            margin-bottom: 20px;
+            font-size: 18px;
+            font-weight: bold;
+        }
+        
+        #Ass {
+            margin-left: 40px;
+            margin-top: 20px;
+        }
+        
+        .Assistance {
+            margin-bottom: 20px; 
+        }
+        
+        .asss {
+            margin-bottom: 40px;
+        }
 }
 
 @media screen and (min-width:700px) and (max-width:1000px)
 {
 
     header {
-        display: flex;
+        display: unset;
         justify-content:unset;
         margin: unset;
         margin-top: 10px;
     }
 
-    .colors {
-        color: #0065FC;
-        padding: unset ;
-        margin:unset;
+    .color {
+        color: black;
+        padding: 30px 25px 10px 25px ;
+        margin: 10px;
         font-size: 14px;
         font-weight: bold;
         text-decoration: none;
-
+    }
+    
+    .colors {
+        color: black;
+        padding: 10px 20px 0px 20px ;
+        font-size: 14px;
+        font-weight: bold;
+        text-decoration: none;
+        position: absolute;
+        top: 0;
+        left: 10;
     }
     
     .acti {
         margin: unset;
         flex-wrap: wrap;
+        padding-bottom: 10px;
+    }
+    .color:hover {
+        border-bottom: solid;
+        border-top: unset;
+        color: #0065FC;
+    }
+    
+    .colors:hover {
+        border-top: solid;
+        color: #0065FC;
+    }
+    
+    .acti:hover {
+        border-bottom: solid;
+        border-top: unset;
+        color: #0065FC;
     }
 
     h1 {
@@ -785,4 +881,39 @@ footer {
         .div5 { grid-area: 5 / 1 / 6 / 2; border-radius: 20px; border: solid #F2F2F2 1px; height: unset; box-shadow: #F2F2F2 5px 5px 10px; }
         .div6 { grid-area: 6 / 1 / 7 / 2; border-radius: 20px; border: solid #F2F2F2 1px; height: unset; box-shadow: #F2F2F2 5px 5px 10px; }
     
+        footer {
+            margin-top: 1400px;
+            display: flex;
+            flex-direction: column;
+            background-color: #F2F2F2;
+        }
+        
+        .pro {
+            margin-bottom: 30px;
+        }
+        
+        #nosheberg {
+            margin-left: 40px;
+            margin-top: 20px;
+        }
+        
+        .Nos {
+            margin-top: 20px;
+            margin-bottom: 20px;
+            font-size: 18px;
+            font-weight: bold;
+        }
+        
+        #Ass {
+            margin-left: 40px;
+            margin-top: 20px;
+        }
+        
+        .Assistance {
+            margin-bottom: 20px; 
+        }
+        
+        .asss {
+            margin-bottom: 40px;
+        }
 }
