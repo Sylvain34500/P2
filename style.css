@@ -22,8 +22,18 @@ body {
 .menu {
     margin-top: 20px;
 }
+
 .color {
-    color: #0065FC;
+    color: black;
+    padding: 30px 25px 0px 25px ;
+    margin: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.colors {
+    color: black;
     padding: 30px 25px 0px 25px ;
     margin: 10px;
     font-size: 14px;
@@ -33,13 +43,24 @@ body {
 
 .color:hover {
     border-top: solid;
-    color: #6fa9ff;
+    color: #0065FC;
+}
+
+.colors:hover {
+    border-top: solid;
+    color: #0065FC;
+}
+
+.acti:hover {
+    border-top: solid;
+
+    color: #0065FC;
 }
 
 .acti {
     color: black;
     text-decoration: none;
-    padding: 20px;
+    padding: 30px;
     font-size: 14px;
     font-weight: bold;
 }
@@ -80,7 +101,7 @@ input.holder::placeholder {
 .recherche button {
     font-size: 17px;
     border-radius: 0px 10px 10px 0px;
-    padding: 11px;
+    padding: 12px;
     color: white;
     background-color: #0065FC; 
     font-weight: bold;
@@ -115,6 +136,10 @@ input.holder::placeholder {
     background-color: white;
     padding-right: 20px;
     padding-left: unset;
+}
+
+#filtres button:hover {
+    background-color:mediumaquamarine;
 }
 
 .margin {
@@ -237,7 +262,7 @@ input.holder::placeholder {
 #populaires {
     width: 35%;
     font-weight: bold;
-    margin-top: 30px;
+    margin-top: 20px;
     margin-left: 40px;
     border-radius: 20px;
     border: #F2F2F2;
@@ -255,12 +280,13 @@ input.holder::placeholder {
     border: #F2F2F2;
     width: 100% ;
     margin-left: 30px;
-    margin-top: 30px;
+    margin-top:35px;
+    margin-bottom: 25px;
 }
 
 .fa-chart-line {
     font-size: 20px;
-    margin: 30px 30px 30px 30px;
+    margin: 38px 30px 30px 30px;
 }
 
 .hotel {
@@ -464,33 +490,38 @@ footer {
         margin-top: 10px;
     }
 
-    .color {
-        color: #0065FC;
+    .colors {
+        color: black;
         padding: unset ;
         margin:unset;
         font-size: 14px;
         font-weight: bold;
         text-decoration: none;
+        position: absolute;
+        top: 0;
+        right: 0;
+       
     }
+
     
     .acti {
-        margin: unset;
-        flex-wrap: wrap;
+       border:unset;  
     }
 
     h1 {
         margin-top: 30px;
         margin-bottom: unset;
-        font-size: 30px;
+        font-size: 10px;
         font-weight: bolder;
     }
 
     #filtres {
-    
+        width: 100%;
         display: flex;
         flex-wrap: wrap;
         
     }
+    
 
     #populaires {
         margin: unset;
@@ -614,13 +645,14 @@ footer {
         margin-top: 10px;
     }
 
-    .color {
+    .colors {
         color: #0065FC;
         padding: unset ;
         margin:unset;
         font-size: 14px;
         font-weight: bold;
         text-decoration: none;
+
     }
     
     .acti {
@@ -637,8 +669,9 @@ footer {
 
     #filtres {
     
-        display: flex;
+        display: unset;
         flex-wrap: wrap;
+        margin-bottom: unset;
         
     }
 
@@ -752,7 +785,4 @@ footer {
         .div5 { grid-area: 5 / 1 / 6 / 2; border-radius: 20px; border: solid #F2F2F2 1px; height: unset; box-shadow: #F2F2F2 5px 5px 10px; }
         .div6 { grid-area: 6 / 1 / 7 / 2; border-radius: 20px; border: solid #F2F2F2 1px; height: unset; box-shadow: #F2F2F2 5px 5px 10px; }
     
-}
-
-  
 }
