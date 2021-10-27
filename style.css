@@ -101,10 +101,15 @@ input.holder::placeholder {
     font-size: 17px;
     border-radius: 0px 10px 10px 0px;
     padding: 12px;
+    padding-left: 25px;
     color: white;
     background-color: #0065FC; 
     font-weight: bold;
     border: unset;
+}
+
+.fa-search {
+    visibility: hidden;
 }
 
 .holder {
@@ -146,6 +151,11 @@ input.holder::placeholder {
     margin-top: 10px;
 }
 
+.margine {
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
 #filtres .fas {
     font-size: 16px;
     color: #0065FC;
@@ -156,7 +166,7 @@ input.holder::placeholder {
     width: 16px;
     min-height: 16px;
     margin-right: 10px;
-    transform: scale(1.1)
+    transform: scale(1.2)
 }
 
 .logement {
@@ -497,6 +507,14 @@ footer {
         margin: unset;
     }
 
+    .hidden {
+        visibility: visible;
+    }
+    
+    .fa-search {
+        visibility: visible;
+    }
+
     .color {
         color: black;
         padding: 0px 25px 10px 25px ;
@@ -546,17 +564,25 @@ footer {
     h1 {
         margin-top: 30px;
         margin-bottom: unset;
-        font-size: 45px;
+        font-size: 20px;
         font-weight: bolder;
     }
 
     #filtres {
-        width: 100%;
+        display: unset;
+    }
+
+    .margin {
+        margin-right: 20px;
+        margin-top: unset;
+    }
+
+    .margine {
         display: flex;
-        flex-wrap: wrap;
+        margin-top: 15px;
+        padding-top: 10px;
         
     }
-    
 
     #populaires {
         margin: unset;
@@ -566,7 +592,7 @@ footer {
     
     #Flex {
         display: flex;
-        justify-content: center;
+        justify-content: unset;
     }
 
     #populaires h2 {
@@ -576,6 +602,8 @@ footer {
 
     .fa-chart-line {
         font-size: 25px;
+        margin-left: unset;
+        margin-top: 40px;
         
     }
 
@@ -600,8 +628,8 @@ footer {
     }
 
     .Auberge {
-        width: 80%;
-        margin: 20px 30px 20px 50px;
+        width: 100%;
+        margin: 10px;
     }
 
     .vieux {
@@ -656,6 +684,7 @@ footer {
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: repeat(6, 1fr);
+        margin: 10px;
         grid-column-gap: px;
         grid-row-gap: 20px;
         }
@@ -708,25 +737,34 @@ footer {
 {
 
     header {
-        display: unset;
+        display:flex;
         justify-content:unset;
+        flex-direction: column;
         margin: unset;
-        margin-top: 10px;
+    }
+
+    .hidden {
+        visibility: visible;
+    }
+    
+    .fa-search {
+        visibility: visible;
     }
 
     .color {
         color: black;
-        padding: 30px 25px 10px 25px ;
-        margin: 10px;
-        font-size: 14px;
+        padding: 0px 25px 10px 25px ;
+        margin: unset;
+        font-size: 17px;
         font-weight: bold;
         text-decoration: none;
     }
     
     .colors {
         color: black;
-        padding: 10px 20px 0px 20px ;
-        font-size: 14px;
+        padding: 20px 30px 0px 30px ;
+        font-size: 17px;
+        margin: unset;
         font-weight: bold;
         text-decoration: none;
         position: absolute;
@@ -735,10 +773,13 @@ footer {
     }
     
     .acti {
-        margin: unset;
-        flex-wrap: wrap;
-        padding-bottom: 10px;
+        color: black;
+        text-decoration: none;
+        padding: 0px 25px 10px 25px ;
+        font-size: 17px;
+        font-weight: bold;
     }
+
     .color:hover {
         border-bottom: solid;
         border-top: unset;
@@ -759,15 +800,23 @@ footer {
     h1 {
         margin-top: 30px;
         margin-bottom: unset;
-        font-size: 30px;
+        font-size: 20px;
         font-weight: bolder;
     }
 
     #filtres {
-    
         display: unset;
-        flex-wrap: wrap;
-        margin-bottom: unset;
+    }
+
+    .margin {
+        margin-right: 20px;
+        margin-top: unset;
+    }
+
+    .margine {
+        display: flex;
+        margin-top: 15px;
+        padding-top: 10px;
         
     }
 
@@ -779,7 +828,7 @@ footer {
     
     #Flex {
         display: flex;
-        justify-content: center;
+        justify-content: unset;
     }
 
     #populaires h2 {
@@ -789,6 +838,8 @@ footer {
 
     .fa-chart-line {
         font-size: 25px;
+        margin-left: unset;
+        margin-top: 40px;
         
     }
 
@@ -813,8 +864,8 @@ footer {
     }
 
     .Auberge {
-        width: 80%;
-        margin: 20px 30px 20px 50px;
+        width: 100%;
+        margin: 10px;
     }
 
     .vieux {
@@ -865,11 +916,11 @@ footer {
         border-radius: 20px 20px 0px 0px;
     }
     
-
     .parent {
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: repeat(6, 1fr);
+        margin: 10px;
         grid-column-gap: px;
         grid-row-gap: 20px;
         }
