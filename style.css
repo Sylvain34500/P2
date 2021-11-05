@@ -126,6 +126,7 @@ input.holder::placeholder {
 #filtres .h3 {
   font-size: 18px;
   margin-top: 18px;
+  margin-bottom: 15px;
   font-weight: bolder;
 }
 
@@ -228,7 +229,7 @@ input.holder::placeholder {
   object-fit: cover;
 }
 
-.Auberge h4 {
+.Auberge h3 {
   margin-left: 10px;
   margin-top: 5px;
   margin-bottom: 0px;
@@ -307,6 +308,7 @@ input.holder::placeholder {
 
 .hotel img {
   width: 46%;
+  max-width: 170px;
   min-width: 125px;
   max-height: 140px;
   min-height: 140px;
@@ -314,7 +316,7 @@ input.holder::placeholder {
   object-fit: cover;
 }
 
-h5 {
+.boite h3 {
   width: 100%;
   font-size: 17px;
   margin-left: 15px;
@@ -346,7 +348,7 @@ h5 {
   margin-top: 40px;
 }
 
-.port h4 {
+.port h3 {
   margin: 20px;
   font-weight: bolder;
 }
@@ -358,7 +360,7 @@ h5 {
   border-radius: 20px 20px 0px 0px;
 }
 
-.div2 h4 {
+.div2 h3 {
   margin: 20px;
   font-weight: bolder;
 }
@@ -369,7 +371,7 @@ h5 {
   object-fit: cover;
   border-radius: 20px 20px 0px 0px;
 }
-.div3 h4 {
+.div3 h3 {
   margin: 20px;
   font-weight: bolder;
 }
@@ -381,7 +383,7 @@ h5 {
   border-radius: 20px 20px 0px 0px;
 }
 
-.div4 h4 {
+.div4 h3 {
   margin: 20px;
   font-weight: bolder;
 }
@@ -393,7 +395,7 @@ h5 {
   border-radius: 20px 20px 0px 0px;
 }
 
-.div5 h4 {
+.div5 h3 {
   margin: 20px;
   font-weight: bolder;
 }
@@ -405,7 +407,7 @@ h5 {
   border-radius: 20px 20px 0px 0px;
 }
 
-.div6 h4 {
+.div6 h3 {
   margin: 20px;
   font-weight: bolder;
 }
@@ -671,7 +673,7 @@ footer {
     width: auto;
   }
 
-  h5 {
+  .boite h3 {
     width: auto;
   }
 
