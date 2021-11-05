@@ -514,6 +514,11 @@ footer {
         visibility: visible;
     }
 
+    .menu {
+    display: flex;
+
+    }
+
     .color {
         width: 50%;
         color: black;
@@ -522,7 +527,8 @@ footer {
         font-size: 17px;
         font-weight: normal;
         text-align: center;
-        border-bottom: 3px solid #aaaa;
+        border-bottom: 3px solid #0065FC;
+       
     }
     
     .colors {
@@ -533,9 +539,8 @@ footer {
         font-weight: bold;
         text-decoration: none;
         position: absolute;
-        top: 0;
-        right: 0;
-        
+        top: 0px;
+        right: 15px;
     }
     
     .acti {
@@ -578,6 +583,10 @@ footer {
 
     #filtres {
         display: unset;
+    }
+
+    #filtres button {
+      margin-bottom: 15px;
     }
 
     .margin {
