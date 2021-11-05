@@ -1,997 +1,1091 @@
 * {
-    font-family : 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 
 header {
-    display: flex;
-    justify-content: space-between;
-    margin: unset;
-    margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  margin: unset;
+  margin-top: 10px;
 }
 
 body {
-    max-width: 1200px;
-    margin: 0 auto;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .Logo {
-    width: 8%;
-    min-width: 100px;
+  width: 8%;
+  min-width: 100px;
 }
 
 .menu {
-    margin-top: 20px;
+  margin-top: 20px;
 }
 
 .color {
-    color: black;
-    padding: 30px 25px 0px 25px ;
-    margin: 10px;
-    font-size: 14px;
-    font-weight: bold;
-    text-decoration: none;
+  color: black;
+  padding: 30px 25px 0px 25px;
+  margin: 10px;
+  font-size: 14px;
+  font-weight: bold;
+  text-decoration: none;
 }
 
 .colors {
-    color: black;
-    padding: 30px 25px 0px 25px ;
-    margin: 10px;
-    font-size: 14px;
-    font-weight: bold;
-    text-decoration: none;
+  color: black;
+  padding: 30px 25px 0px 25px;
+  margin: 10px;
+  font-size: 14px;
+  font-weight: bold;
+  text-decoration: none;
 }
 
 .acti {
-    color: black;
-    text-decoration: none;
-    padding: 30px;
-    font-size: 14px;
-    font-weight: bold;
+  color: black;
+  text-decoration: none;
+  padding: 30px;
+  font-size: 14px;
+  font-weight: bold;
 }
 
 .color:hover {
-    border-top: solid;
-    color: #0065FC;
+  border-top: solid;
+  color: #0065fc;
 }
 
 .colors:hover {
-    border-top: solid;
-    color: #0065FC;
+  border-top: solid;
+  color: #0065fc;
 }
 
 .acti:hover {
-    border-top: solid;
-    color: #0065FC;
+  border-top: solid;
+  color: #0065fc;
 }
 
 h1 {
+  margin-top: 30px;
+  margin-bottom: unset;
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+.ville {
+  font-size: 15px;
+  margin-top: 5px;
+}
+
+input {
+  font-weight: bold;
+  margin: 20px 0px 20px 0px;
+}
+
+.recherche {
+  font-size: 18px;
+}
+
+.fa-map-marker-alt {
+  color: black;
+  border: solid #f2f2f2;
+  border-radius: 15px 0px 0px 15px;
+  padding: 12px 15px 12px 15px;
+  background-color: #f2f2f2;
+}
+
+input.holder::placeholder {
+  color: black;
+}
+
+.recherche button {
+  font-size: 17px;
+  border-radius: 0px 10px 10px 0px;
+  padding: 12px;
+  color: white;
+  background-color: #0065fc;
+  font-weight: bold;
+  border: unset;
+}
+
+.fa-search {
+  display: none;
+}
+
+.holder {
+  font-size: 18px;
+  border: #f2f2f2 solid;
+  border-radius: unset;
+  padding: 10px;
+}
+
+#filtres {
+  display: flex;
+  font-weight: bold;
+}
+
+#filtres .h3 {
+  font-size: 18px;
+  margin-top: 18px;
+  font-weight: bolder;
+}
+
+#filtres button {
+  font-size: 17px;
+  font-weight: bolder;
+  border: solid lightgrey 2px;
+  border-radius: 100px;
+  background-color: white;
+  padding-right: 20px;
+  padding-left: unset;
+}
+
+#filtres button:hover {
+  background-color: mediumaquamarine;
+}
+
+.margin {
+  margin-right: 20px;
+  margin-top: 10px;
+}
+
+.margine {
+  margin-right: 20px;
+  margin-top: 10px;
+}
+
+#filtres .fas {
+  font-size: 16px;
+  color: #0065fc;
+  border: unset;
+  border-radius: 30px;
+  background-color: #deebff;
+  padding: 12px;
+  width: 16px;
+  min-height: 16px;
+  margin-right: 10px;
+  transform: scale(1.2);
+}
+
+.logement {
+  font-size: 15px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  color: black;
+}
+
+.fa-info {
+  font-size: 12px;
+  color: #0065fc;
+  margin-right: 10px;
+  border: solid #f2f2f2;
+  border-radius: 50px;
+  padding: 5px 5px 5px 8px;
+  width: 8px;
+  min-height: 5px;
+}
+
+#Liaison {
+  display: flex;
+}
+
+#Hebergement {
+  width: 70%;
+  border-radius: 20px;
+  border: #f2f2f2;
+  font-weight: bold;
+  background-color: #f2f2f2;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+#Hebergement h2 {
+  font-size: 21px;
+  font-weight: bolder;
+  border: #f2f2f2;
+  width: 100%;
+  margin-left: 30px;
+  margin-bottom: 0px;
+  margin-top: 30px;
+}
+
+.Auberge {
+  height: 190px;
+  border: #f2f2f2;
+  border-radius: 20px;
+  background: white;
+  width: calc(33% - 55px);
+  padding: 5px;
+  background: white;
+  margin: 0px 10px 10px 30px;
+  box-shadow: lightgrey 5px 5px 20px;
+}
+
+#Hebergement img {
+  width: 100%;
+  max-height: 110px;
+  border-radius: 20px 20px 0 0;
+  object-fit: cover;
+}
+
+.Auberge h4 {
+  margin-left: 10px;
+  margin-top: 5px;
+  margin-bottom: 0px;
+}
+
+.Nuit {
+  margin-left: 10px;
+  margin-top: 5px;
+  font-weight: lighter;
+}
+
+.star {
+  font-size: 11px;
+  margin-left: 10px;
+  margin-top: 5px;
+}
+
+.far {
+  color: #f2f2f2;
+}
+
+.fa-star {
+  color: #0065fc;
+  margin-top: 0px;
+  margin-right: 1px;
+}
+
+#Afficher {
+  color: black;
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: unset;
+  margin: 20px;
+}
+
+#populaires {
+  width: 35%;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-left: 40px;
+  border-radius: 20px;
+  border: #f2f2f2;
+  background-color: #f2f2f2;
+}
+
+#Flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+#populaires h2 {
+  font-size: 21px;
+  font-weight: bolder;
+  border: #f2f2f2;
+  width: 100%;
+  margin-left: 30px;
+  margin-top: 35px;
+  margin-bottom: 25px;
+}
+
+.fa-chart-line {
+  font-size: 20px;
+  margin: 38px 30px 30px 30px;
+}
+
+.hotel {
+  display: flex;
+  width: 80%;
+  border-radius: 20px;
+  border: #f2f2f2;
+  background: white;
+  margin: 0px 40px 30px 35px;
+  box-shadow: lightgrey 5px 5px 20px;
+  padding: 4px;
+}
+
+.hotel img {
+  width: 46%;
+  min-width: 125px;
+  max-height: 140px;
+  min-height: 140px;
+  border-radius: 20px 0px 0px 20px;
+  object-fit: cover;
+}
+
+h5 {
+  width: 100%;
+  font-size: 17px;
+  margin-left: 15px;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  font-weight: bold;
+}
+
+#populaires .Nuit {
+  margin-left: 15px;
+  margin-top: 5px;
+  font-weight: lighter;
+}
+
+.hotel .stars {
+  font-size: 10px;
+  margin-left: 15px;
+  margin-top: 45px;
+}
+
+.hotel .Stars {
+  font-size: 10px;
+  margin-left: 15px;
+  margin-top: 45px;
+}
+
+#act {
+  margin: unset;
+  margin-top: 40px;
+}
+
+.port h4 {
+  margin: 20px;
+  font-weight: bolder;
+}
+
+.vieux {
+  width: 100%;
+  height: 440px;
+  object-fit: cover;
+  border-radius: 20px 20px 0px 0px;
+}
+
+.div2 h4 {
+  margin: 20px;
+  font-weight: bolder;
+}
+
+.div2 .fort {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 20px 20px 0px 0px;
+}
+.div3 h4 {
+  margin: 20px;
+  font-weight: bolder;
+}
+
+.div3 .iles {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 20px 20px 0px 0px;
+}
+
+.div4 h4 {
+  margin: 20px;
+  font-weight: bolder;
+}
+
+.parc {
+  width: 100%;
+  height: 440px;
+  object-fit: cover;
+  border-radius: 20px 20px 0px 0px;
+}
+
+.div5 h4 {
+  margin: 20px;
+  font-weight: bolder;
+}
+
+.div5 .garde {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 20px 20px 0px 0px;
+}
+
+.div6 h4 {
+  margin: 20px;
+  font-weight: bolder;
+}
+
+.div6 .longchamp {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 20px 20px 0px 0px;
+}
+
+.parent {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 35px;
+  grid-row-gap: 20px;
+  height: 500px;
+  margin-top: 20px;
+}
+
+.port {
+  grid-area: 1 / 1 / 3 / 2;
+  border-radius: 20px;
+  border: solid #f2f2f2 1px;
+  height: 500px;
+  box-shadow: #f2f2f2 5px 5px 10px;
+}
+.div2 {
+  grid-area: 1 / 2 / 2 / 3;
+  border-radius: 20px;
+  border: solid #f2f2f2 1px;
+  height: 240px;
+  box-shadow: #f2f2f2 5px 5px 10px;
+}
+.div3 {
+  grid-area: 2 / 2 / 3 / 3;
+  border-radius: 20px;
+  border: solid #f2f2f2 1px;
+  height: 235px;
+  box-shadow: #f2f2f2 5px 5px 10px;
+}
+.div4 {
+  grid-area: 1 / 3 / 3 / 4;
+  border-radius: 20px;
+  border: solid #f2f2f2 1px;
+  height: 500px;
+  box-shadow: #f2f2f2 5px 5px 10px;
+}
+.div5 {
+  grid-area: 1 / 4 / 2 / 5;
+  border-radius: 20px;
+  border: solid #f2f2f2 1px;
+  height: 240px;
+  box-shadow: #f2f2f2 5px 5px 10px;
+}
+.div6 {
+  grid-area: 2 / 4 / 3 / 5;
+  border-radius: 20px;
+  border: solid #f2f2f2 1px;
+  height: 235px;
+  box-shadow: #f2f2f2 5px 5px 10px;
+}
+
+input {
+  border-radius: 10px;
+}
+
+.plus {
+  font-weight: bold;
+}
+
+footer {
+  margin-top: 50px;
+  display: flex;
+  background-color: #f2f2f2;
+}
+
+#propos {
+  margin-left: 40px;
+  margin-right: 13%;
+}
+
+.pro {
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+#nosheberg {
+  margin-right: 15%;
+}
+.Nos {
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.Assistance {
+  font-size: large;
+  text-decoration: unset;
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+.ass {
+  color: black;
+  text-decoration: unset;
+  margin: 10px 0px 0px 0px;
+  font-size: 18px;
+  display: flex;
+}
+
+.asss {
+  color: black;
+  text-decoration: unset;
+  margin: 10px 0px 0px 0px;
+  font-size: 18px;
+  display: flex;
+}
+
+@media screen and (max-width: 700px) {
+  header {
+    display: flex;
+    justify-content: unset;
+    flex-direction: column;
+    margin: unset;
+  }
+
+  .hidden {
+    display: none;
+  }
+
+  .fa-search {
+    visibility: visible;
+  }
+
+  .menu {
+    display: flex;
+  }
+
+  .color {
+    width: 50%;
+    color: black;
+    padding: 0px 0 10px 0;
+    margin: unset;
+    font-size: 17px;
+    font-weight: normal;
+    text-align: center;
+    border-bottom: 3px solid #0065fc;
+  }
+
+  .colors {
+    color: #0065fc;
+    padding: 20px 0px 0px 0px;
+    font-size: 17px;
+    margin: unset;
+    font-weight: bold;
+    text-decoration: none;
+    position: absolute;
+    top: 0px;
+    right: 15px;
+  }
+
+  .acti {
+    width: 50%;
+    padding: 0px 0 10px 0;
+    text-align: center;
+    color: black;
+    text-decoration: none;
+    border-bottom: 3px solid #aaaa;
+    font-size: 17px;
+    font-weight: normal;
+  }
+
+  .color:hover {
+    border-bottom: 3px solid;
+    padding: 0px 0 10px 0;
+
+    border-top: unset;
+    color: #0065fc;
+  }
+
+  .colors:hover {
+    border-top: 3px solid;
+    color: #0065fc;
+  }
+
+  .acti:hover {
+    border-bottom: 3px solid;
+    padding: 0px 0 10px 0;
+    border-top: unset;
+    color: #0065fc;
+  }
+
+  h1 {
+    margin-top: 30px;
+    margin-bottom: unset;
+    font-size: 24px;
+    font-weight: bolder;
+  }
+
+  #filtres {
+    display: unset;
+  }
+
+  #filtres button {
+    margin-bottom: 15px;
+  }
+
+  .margin {
+    margin-right: 20px;
+    margin-top: unset;
+  }
+
+  .margine {
+    display: flex;
+    margin-top: 15px;
+    padding-top: 10px;
+    padding-bottom: unset;
+  }
+
+  #populaires {
+    margin: unset;
+    width: 100%;
+    border-radius: unset;
+  }
+
+  #Flex {
+    display: flex;
+    justify-content: unset;
+  }
+
+  #populaires h2 {
+    font-size: 25px;
+    margin-top: 40px;
+  }
+
+  .fa-chart-line {
+    font-size: 25px;
+    margin-left: unset;
+    margin-top: 40px;
+  }
+
+  #Liaison {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  #Hebergement {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: unset;
+  }
+
+  #Hebergement h2 {
+    font-size: 25px;
+    font-weight: bolder;
+    margin-left: 15px;
+    margin-bottom: 10px;
+    margin-top: 30px;
+    width: auto;
+  }
+
+  h5 {
+    width: auto;
+  }
+
+  #act {
+    margin-left: 15px;
+  }
+  .Auberge {
+    width: calc(100% - 55px);
+    margin: 10px;
+  }
+
+  .vieux {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 20px 20px 0px 0px;
+  }
+  .port {
+    width: 100%;
+    height: 260px;
+    object-fit: unset;
+    border-radius: 20px 20px 0px 0px;
+  }
+
+  .div2 .fort {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 20px 20px 0px 0px;
+  }
+
+  .div3 .iles {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 20px 20px 0px 0px;
+  }
+
+  .parc {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 20px 20px 0px 0px;
+  }
+
+  .div5 .garde {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 20px 20px 0px 0px;
+  }
+
+  .div6 .longchamp {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 20px 20px 0px 0px;
+  }
+
+  .parent {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(6, 1fr);
+    margin: 10px;
+    grid-column-gap: px;
+    grid-row-gap: 20px;
+  }
+
+  .port {
+    grid-area: 1 / 1 / 2 / 2;
+    border-radius: 20px;
+    border: solid #f2f2f2 1px;
+    width: calc(100% - 20px);
+    box-shadow: #f2f2f2 5px 5px 10px;
+  }
+  .div2 {
+    grid-area: 2 / 1 / 3 / 2;
+    border-radius: 20px;
+    border: solid #f2f2f2 1px;
+    width: calc(100% - 20px);
+    box-shadow: #f2f2f2 5px 5px 10px;
+  }
+  .div3 {
+    grid-area: 3 / 1 / 4 / 2;
+    border-radius: 20px;
+    border: solid #f2f2f2 1px;
+    width: calc(100% - 20px);
+    box-shadow: #f2f2f2 5px 5px 10px;
+  }
+  .div4 {
+    grid-area: 4 / 1 / 5 / 2;
+    border-radius: 20px;
+    border: solid #f2f2f2 1px;
+    height: 240px;
+    width: calc(100% - 20px);
+    box-shadow: #f2f2f2 5px 5px 10px;
+  }
+  .div5 {
+    grid-area: 5 / 1 / 6 / 2;
+    border-radius: 20px;
+    border: solid #f2f2f2 1px;
+    width: calc(100% - 20px);
+    box-shadow: #f2f2f2 5px 5px 10px;
+  }
+  .div6 {
+    grid-area: 6 / 1 / 7 / 2;
+    border-radius: 20px;
+    border: solid #f2f2f2 1px;
+    width: calc(100% - 20px);
+    box-shadow: #f2f2f2 5px 5px 10px;
+  }
+
+  footer {
+    margin-top: 1100px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #f2f2f2;
+  }
+
+  .pro {
+    margin-bottom: 30px;
+  }
+
+  #nosheberg {
+    margin-left: 40px;
+    margin-top: 20px;
+  }
+
+  .Nos {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  #Ass {
+    margin-left: 40px;
+    margin-top: 20px;
+  }
+
+  .Assistance {
+    margin-bottom: 20px;
+  }
+
+  .asss {
+    margin-bottom: 40px;
+  }
+}
+
+@media screen and (min-width: 700px) and (max-width: 1000px) {
+  header {
+    display: flex;
+    justify-content: unset;
+    flex-direction: column;
+    margin: unset;
+  }
+
+  .hidden {
+    visibility: visible;
+  }
+
+  .fa-search {
+    visibility: visible;
+  }
+
+  .color {
+    color: black;
+    padding: 0px 25px 10px 25px;
+    margin: unset;
+    font-size: 17px;
+    font-weight: bold;
+    text-decoration: none;
+  }
+
+  .colors {
+    color: black;
+    padding: 20px 30px 0px 30px;
+    font-size: 17px;
+    margin: unset;
+    font-weight: bold;
+    text-decoration: none;
+    position: absolute;
+    top: 0;
+    left: 10;
+  }
+
+  .acti {
+    color: black;
+    text-decoration: none;
+    padding: 0px 25px 10px 25px;
+    font-size: 17px;
+    font-weight: bold;
+  }
+
+  .color:hover {
+    border-bottom: solid;
+    border-top: unset;
+    color: #0065fc;
+  }
+
+  .colors:hover {
+    border-top: solid;
+    color: #0065fc;
+  }
+
+  .acti:hover {
+    border-bottom: solid;
+    border-top: unset;
+    color: #0065fc;
+  }
+
+  h1 {
     margin-top: 30px;
     margin-bottom: unset;
     font-size: 20px;
     font-weight: bolder;
-}
+  }
 
-.ville {
-    font-size: 15px;
-    margin-top: 5px;
-}
+  #filtres {
+    display: unset;
+  }
 
-input {
-    font-weight: bold;
-    margin: 20px 0px 20px 0px;
-}
-
-.recherche {
-    font-size: 18px;
-}
-
-.fa-map-marker-alt {
-    color: black;
-    border: solid #F2F2F2;
-    border-radius:15px 0px 0px 15px;
-    padding: 12px 15px 12px 15px ;
-    background-color: #F2F2F2;
-}
-
-input.holder::placeholder {
-    color: black;
-}
-
-.recherche button {
-    font-size: 17px;
-    border-radius: 0px 10px 10px 0px;
-    padding: 12px;
-    color: white;
-    background-color: #0065FC; 
-    font-weight: bold;
-    border: unset;
-}
-
-.fa-search {
-    display: none;
-}
-
-.holder {
-    font-size: 18px;
-    border: #F2F2F2 solid;
-    border-radius: unset;
-    padding: 10px;
-}
-
-#filtres {
-    
-    display: flex;
-    font-weight: bold;
-    
-}
-
-#filtres h3 {
-    font-size: 18px;
-    margin-top: 18px;
-    font-weight: bolder;
-}
-
-#filtres button {
-    font-size: 17px;
-    font-weight: bolder;
-    border: solid lightgrey 2px;
-    border-radius: 100px;
-    background-color: white;
-    padding-right: 20px;
-    padding-left: unset;
-}
-
-#filtres button:hover {
-    background-color:mediumaquamarine;
-}
-
-.margin {
+  .margin {
     margin-right: 20px;
-    margin-top: 10px;
-}
+    margin-top: unset;
+  }
 
-.margine {
-    margin-right: 20px;
-    margin-top: 10px;
-}
-
-#filtres .fas {
-    font-size: 16px;
-    color: #0065FC;
-    border: unset ;
-    border-radius: 30px;
-    background-color: #DEEBFF;
-    padding: 12px;
-    width: 16px;
-    min-height: 16px;
-    margin-right: 10px;
-    transform: scale(1.2)
-}
-
-.logement {
-    font-size: 15px;
-    margin-top: 30px;
-    margin-bottom: 10px;
-    color: black;
-}
-
-.fa-info {
-    font-size: 12px;
-    color: #0065FC;
-    margin-right: 10px;
-    border: solid #F2F2F2;
-    border-radius: 50px;
-    padding: 5px 5px 5px 8px; 
-    width: 8px;
-    min-height: 5px;
-}
-
-#Liaison {
+  .margine {
     display: flex;
-}
+    margin-top: 15px;
+    padding-top: 10px;
+  }
 
-#Hebergement {
-    width: 70%;
-    border-radius: 20px;
-    border: #F2F2F2;
-    font-weight: bold;
-    background-color: #F2F2F2;
-    display: flex;  
-    flex-wrap: wrap;
-    margin-top: 20px;
-}
-
-#Hebergement h2{
-    font-size: 21px;
-    font-weight: bolder;
-    border: #F2F2F2;
-    width: 100% ;
-    margin-left: 30px;
-    margin-bottom: 0px;
-    margin-top: 30px;
-}
-
-.Auberge {
-    height: 190px;
-    border: #F2F2F2;
-    border-radius: 20px;
-    background:white;
-    width:calc(33% - 55px);
-    padding: 5px;
-    background:white;
-    margin: 0px 10px 10px 30px;
-    box-shadow:lightgrey 5px 5px 20px;
-}
-
-#Hebergement img {
-    width: 100%;
-    max-height: 110px;
-    border-radius: 20px 20px 0 0; 
-    object-fit: cover;
-}
-
-.Auberge h4 {
-    margin-left: 10px;
-    margin-top: 5px;
-    margin-bottom: 0px;
-}
-
-.Nuit {
-    margin-left: 10px;
-    margin-top: 5px;
-    font-weight: lighter;
-    
-}
-
-.star {
-    font-size: 11px;
-    margin-left: 10px;
-    margin-top: 5px;
-}
-
-.far {
-    color: #F2F2F2;
-}
-
-.fa-star {
-    color: #0065FC;
-    margin-top: 0px;
-    margin-right: 1px;  
-}
-
-#Afficher {
-    color: black;
-    font-size: 18px;
-    font-weight: bold;
-    text-decoration: unset;
-    margin: 20px;
-}
-
-#populaires {
-    width: 35%;
-    font-weight: bold;
-    margin-top: 20px;
-    margin-left: 40px;
-    border-radius: 20px;
-    border: #F2F2F2;
-    background-color: #F2F2F2;
-}
-
-#Flex {
-    display: flex;
-    justify-content: space-between;
-}
-
-#populaires h2 {
-    font-size: 21px;
-    font-weight: bolder;
-    border: #F2F2F2;
-    width: 100% ;
-    margin-left: 30px;
-    margin-top:35px;
-    margin-bottom: 25px;
-}
-
-.fa-chart-line {
-    font-size: 20px;
-    margin: 38px 30px 30px 30px;
-}
-
-.hotel {
-    display: flex;
-    width: 80%;
-    border-radius: 20px;
-    border: #F2F2F2;
-    background: white;
-    margin: 0px 40px 30px 35px;
-    box-shadow:lightgrey 5px 5px 20px;
-    padding: 4px;
-}
-
-.hotel img {
-    width: 46%;
-    min-width: 125px;
-    max-height: 140px;
-    min-height: 140px;
-    border-radius: 20px 0px 0px 20px;
-    object-fit: cover;
-    
-}
-
-h5 {
-    width: 100%;
-    font-size: 17px;
-    margin-left: 15px;
-    margin-top: 10px;
-    margin-bottom: 0px; 
-    font-weight: bold;
-}
-
-#populaires .Nuit {
-    margin-left: 15px;
-    margin-top: 5px;
-    font-weight: lighter;
-    
-}
-
-.hotel .stars {
-    font-size: 10px;
-    margin-left: 15px;
-    margin-top: 45px;
-}
-
-.hotel .Stars {
-    font-size: 10px;
-    margin-left: 15px;
-    margin-top: 45px;
-}
-
-#act {
+  #populaires {
     margin: unset;
+    width: 100%;
+    border-radius: unset;
+  }
+
+  #Flex {
+    display: flex;
+    justify-content: unset;
+  }
+
+  #populaires h2 {
+    font-size: 25px;
     margin-top: 40px;
-}
+  }
 
-.port h4 {
-    margin: 20px;
+  .fa-chart-line {
+    font-size: 25px;
+    margin-left: unset;
+    margin-top: 40px;
+  }
+
+  #Liaison {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  #Hebergement {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: unset;
+  }
+
+  #Hebergement h2 {
+    font-size: 25px;
     font-weight: bolder;
-}
+    margin-left: 50px;
+    margin-bottom: 10px;
+    margin-top: 30px;
+  }
 
-.vieux {
+  .Auberge {
+    width: 100%;
+    margin: 10px;
+  }
+
+  .vieux {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 20px 20px 0px 0px;
+  }
+  .port {
+    width: 100%;
+    height: 10px;
+    object-fit: unset;
+    border-radius: 20px 20px 0px 0px;
+  }
+
+  .div2 .fort {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 20px 20px 0px 0px;
+  }
+
+  .div3 .iles {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 20px 20px 0px 0px;
+  }
+
+  .parc {
     width: 100%;
     height: 440px;
     object-fit: cover;
     border-radius: 20px 20px 0px 0px;
-}
+  }
 
-.div2 h4 {
-    margin: 20px;
-    font-weight: bolder;
-}
-
-.div2 .fort {
+  .div5 .garde {
     width: 100%;
     height: 180px;
     object-fit: cover;
     border-radius: 20px 20px 0px 0px;
-}
-.div3 h4 {
-    margin: 20px;
-    font-weight: bolder;
-}
+  }
 
-.div3 .iles {
+  .div6 .longchamp {
     width: 100%;
     height: 180px;
     object-fit: cover;
     border-radius: 20px 20px 0px 0px;
-}
+  }
 
-.div4 h4 {
-    margin: 20px;
-    font-weight: bolder;
-}
-
-.parc {
-    width: 100%;
-    height: 440px;
-    object-fit: cover;
-    border-radius: 20px 20px 0px 0px;
-}
-
-.div5 h4 {
-    margin: 20px;
-    font-weight: bolder;
-}
-
-.div5 .garde{
-    width: 100%;
-    height: 180px;
-    object-fit: cover;
-    border-radius: 20px 20px 0px 0px;
-}
-
-.div6 h4 {
-    margin: 20px;
-    font-weight: bolder;
-}
-
-.div6 .longchamp {
-    width: 100%;
-    height: 180px;
-    object-fit: cover;
-    border-radius: 20px 20px 0px 0px;
-}
-
-.parent {
+  .parent {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    grid-column-gap: 35px;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(6, 1fr);
+    margin: 10px;
+    grid-column-gap: px;
     grid-row-gap: 20px;
-    height:500px;
-    margin-top:20px;
-}
-    
-.port { grid-area: 1 / 1 / 3 / 2; border-radius: 20px; border: solid #F2F2F2 1px; height: 500px; box-shadow: #F2F2F2 5px 5px 10px; }
-.div2 { grid-area: 1 / 2 / 2 / 3; border-radius: 20px; border: solid #F2F2F2 1px; height: 240px; box-shadow: #F2F2F2 5px 5px 10px; }
-.div3 { grid-area: 2 / 2 / 3 / 3; border-radius: 20px; border: solid #F2F2F2 1px; height: 235px; box-shadow: #F2F2F2 5px 5px 10px; }
-.div4 { grid-area: 1 / 3 / 3 / 4; border-radius: 20px; border: solid #F2F2F2 1px; height: 500px; box-shadow: #F2F2F2 5px 5px 10px; }
-.div5 { grid-area: 1 / 4 / 2 / 5; border-radius: 20px; border: solid #F2F2F2 1px; height: 240px; box-shadow: #F2F2F2 5px 5px 10px; }
-.div6 { grid-area: 2 / 4 / 3 / 5; border-radius: 20px; border: solid #F2F2F2 1px; height: 235px; box-shadow: #F2F2F2 5px 5px 10px; }
+  }
 
-input {
-    border-radius: 10px;
-}
+  .port {
+    grid-area: 1 / 1 / 2 / 2;
+    border-radius: 20px;
+    border: solid #f2f2f2 1px;
+    height: unset;
+    box-shadow: #f2f2f2 5px 5px 10px;
+  }
+  .div2 {
+    grid-area: 2 / 1 / 3 / 2;
+    border-radius: 20px;
+    border: solid #f2f2f2 1px;
+    height: unset;
+    box-shadow: #f2f2f2 5px 5px 10px;
+  }
+  .div3 {
+    grid-area: 3 / 1 / 4 / 2;
+    border-radius: 20px;
+    border: solid #f2f2f2 1px;
+    height: unset;
+    box-shadow: #f2f2f2 5px 5px 10px;
+  }
+  .div4 {
+    grid-area: 4 / 1 / 5 / 2;
+    border-radius: 20px;
+    border: solid #f2f2f2 1px;
+    height: unset;
+    box-shadow: #f2f2f2 5px 5px 10px;
+  }
+  .div5 {
+    grid-area: 5 / 1 / 6 / 2;
+    border-radius: 20px;
+    border: solid #f2f2f2 1px;
+    height: unset;
+    box-shadow: #f2f2f2 5px 5px 10px;
+  }
+  .div6 {
+    grid-area: 6 / 1 / 7 / 2;
+    border-radius: 20px;
+    border: solid #f2f2f2 1px;
+    height: unset;
+    box-shadow: #f2f2f2 5px 5px 10px;
+  }
 
-.plus {
-    font-weight: bold;
-}
-
-footer {
-    margin-top: 50px;
+  footer {
+    margin-top: 1400px;
     display: flex;
-    background-color: #F2F2F2;
-}
+    flex-direction: column;
+    background-color: #f2f2f2;
+  }
 
-#propos {
+  .pro {
+    margin-bottom: 30px;
+  }
+
+  #nosheberg {
     margin-left: 40px;
-    margin-right: 13%;
-}
-
-.pro {
     margin-top: 20px;
+  }
+
+  .Nos {
+    margin-top: 20px;
+    margin-bottom: 20px;
     font-size: 18px;
     font-weight: bold;
-}
+  }
 
-#nosheberg {
-    margin-right: 15%;
-}
-.Nos {
+  #Ass {
+    margin-left: 40px;
     margin-top: 20px;
-    font-size: 18px;
-    font-weight: bold;
-}
+  }
 
-.Assistance {
-    font-size: large;
-    text-decoration: unset;
-    margin-top: 20px;
-    font-weight: bold;
-}
+  .Assistance {
+    margin-bottom: 20px;
+  }
 
-.ass {
-    color: black;
-    text-decoration: unset;
-    margin: 10px 0px 0px 0px;
-    font-size: 18px;
-    display: flex;   
-}
-
-.asss {
-    color: black;
-    text-decoration: unset;
-    margin: 10px 0px 0px 0px;
-    font-size: 18px;
-    display: flex;   
-}
-
-
-@media screen and (max-width:700px)
-{
-    header {
-        display:flex;
-        justify-content:unset;
-        flex-direction: column;
-        margin: unset;
-    }
-
-    .hidden {
-        display: none;
-    }
-    
-    .fa-search {
-        visibility: visible;
-    }
-
-    .menu {
-    display: flex;
-
-    }
-
-    .color {
-        width: 50%;
-        color: black;
-        padding: 0px 0 10px 0;
-        margin: unset;
-        font-size: 17px;
-        font-weight: normal;
-        text-align: center;
-        border-bottom: 3px solid #0065FC;
-       
-    }
-    
-    .colors {
-        color: #0065FC;
-        padding: 20px 0px 0px 0px ;
-        font-size: 17px;
-        margin: unset;
-        font-weight: bold;
-        text-decoration: none;
-        position: absolute;
-        top: 0px;
-        right: 15px;
-    }
-    
-    .acti {
-        width: 50%;
-        padding: 0px 0 10px 0;
-        text-align: center;
-        color: black;
-        text-decoration: none;
-        border-bottom: 3px solid #aaaa;
-        font-size: 17px;
-        font-weight: normal;
-    }
-
-    .color:hover {
-        border-bottom: 3px solid;
-        padding: 0px 0 10px 0;
-        
-        border-top: unset;
-        color: #0065FC;
-    }
-    
-    .colors:hover {
-        border-top: 3px solid;
-        color: #0065FC;
-    }
-    
-    .acti:hover {
-        border-bottom: 3px solid;
-        padding: 0px 0 10px 0;
-        border-top: unset;
-        color: #0065FC;
-    }
-
-    h1 {
-        margin-top: 30px;
-        margin-bottom: unset;
-        font-size: 24px;
-        font-weight: bolder;
-    }
-
-    #filtres {
-        display: unset;
-    }
-
-    #filtres button {
-      margin-bottom: 15px;
-    }
-
-    .margin {
-        margin-right: 20px;
-        margin-top: unset;
-    }
-
-    .margine {
-        display: flex;
-        margin-top: 15px;
-        padding-top: 10px;
-        padding-bottom: unset;
-        
-    }
-
-    #populaires {
-        margin: unset;
-        width: 100%;
-        border-radius: unset;
-    }
-    
-    #Flex {
-        display: flex;
-        justify-content: unset;
-    }
-
-    #populaires h2 {
-        font-size: 25px;
-        margin-top: 40px;
-    }
-
-    .fa-chart-line {
-        font-size: 25px;
-        margin-left: unset;
-        margin-top: 40px;
-        
-    }
-
-    #Liaison {
-        display: flex;
-        flex-direction: column-reverse;
-    }
-
-    #Hebergement {
-        width: 100%;
-        display: flex;
-        flex-direction: column; 
-        background-color: unset; 
-    }
-
-    #Hebergement h2{
-        font-size: 25px;
-        font-weight: bolder;
-        margin-left: 15px;
-        margin-bottom: 10px;
-        margin-top: 30px;
-        width: auto;
-    }
-
-    h5 {
-        width: auto;
-    }
-
-    #act {
-        margin-left: 15px;
-    }
-    .Auberge {
-        width: calc(100% - 55px);
-        margin: 10px;
-    }
-
-    .vieux {
-        width: 100%;
-        height: 200px;
-        object-fit: cover;
-        border-radius: 20px 20px 0px 0px;
-    }
-    .port {
-        width: 100%;
-        height: 260px;
-        object-fit: unset;
-        border-radius: 20px 20px 0px 0px;
-    }
-    
-    .div2 .fort {
-        width: 100%;
-        height: 180px;
-        object-fit: cover;
-        border-radius: 20px 20px 0px 0px;
-    }
-    
-    .div3 .iles {
-        width: 100%;
-        height: 180px;
-        object-fit: cover;
-        border-radius: 20px 20px 0px 0px;
-    }
-    
-    .parc {
-        width: 100%;
-        height: 180px;
-        object-fit: cover;
-        border-radius: 20px 20px 0px 0px;
-    }
-    
-    .div5 .garde{
-        width: 100%;
-        height: 180px;
-        object-fit: cover;
-        border-radius: 20px 20px 0px 0px;
-    }
-    
-    .div6 .longchamp {
-        width: 100%;
-        height: 180px;
-        object-fit: cover;
-        border-radius: 20px 20px 0px 0px;
-    }
-    
-    .parent {
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: repeat(6, 1fr);
-        margin: 10px;
-        grid-column-gap: px;
-        grid-row-gap: 20px;
-        }
-        
-        .port { grid-area: 1 / 1 / 2 / 2; border-radius: 20px; border: solid #F2F2F2 1px; width: calc(100% - 20px); box-shadow: #F2F2F2 5px 5px 10px; }
-        .div2 { grid-area: 2 / 1 / 3 / 2; border-radius: 20px; border: solid #F2F2F2 1px; width: calc(100% - 20px); box-shadow: #F2F2F2 5px 5px 10px; }
-        .div3 { grid-area: 3 / 1 / 4 / 2; border-radius: 20px; border: solid #F2F2F2 1px; width: calc(100% - 20px); box-shadow: #F2F2F2 5px 5px 10px; }
-        .div4 { grid-area: 4 / 1 / 5 / 2; border-radius: 20px; border: solid #F2F2F2 1px; height: 240px; width: calc(100% - 20px); box-shadow: #F2F2F2 5px 5px 10px; }
-        .div5 { grid-area: 5 / 1 / 6 / 2; border-radius: 20px; border: solid #F2F2F2 1px; width: calc(100% - 20px); box-shadow: #F2F2F2 5px 5px 10px; }
-        .div6 { grid-area: 6 / 1 / 7 / 2; border-radius: 20px; border: solid #F2F2F2 1px; width: calc(100% - 20px); box-shadow: #F2F2F2 5px 5px 10px; }
-    
-        footer {
-            margin-top: 1100px;
-            width: 100%;
-            display: flex;
-            flex-direction: column;
-            background-color: #F2F2F2;
-        }
-        
-        .pro {
-            margin-bottom: 30px;
-        }
-        
-        #nosheberg {
-            margin-left: 40px;
-            margin-top: 20px;
-        }
-        
-        .Nos {
-            margin-top: 20px;
-            margin-bottom: 20px;
-            font-size: 18px;
-            font-weight: bold;
-        }
-        
-        #Ass {
-            margin-left: 40px;
-            margin-top: 20px;
-        }
-        
-        .Assistance {
-            margin-bottom: 20px; 
-        }
-        
-        .asss {
-            margin-bottom: 40px;
-        }
-}
-
-@media screen and (min-width:700px) and (max-width:1000px)
-{
-
-    header {
-        display:flex;
-        justify-content:unset;
-        flex-direction: column;
-        margin: unset;
-    }
-
-    .hidden {
-        visibility: visible;
-    }
-    
-    .fa-search {
-        visibility: visible;
-    }
-
-    .color {
-        color: black;
-        padding: 0px 25px 10px 25px ;
-        margin: unset;
-        font-size: 17px;
-        font-weight: bold;
-        text-decoration: none;
-    }
-    
-    .colors {
-        color: black;
-        padding: 20px 30px 0px 30px ;
-        font-size: 17px;
-        margin: unset;
-        font-weight: bold;
-        text-decoration: none;
-        position: absolute;
-        top: 0;
-        left: 10;
-    }
-    
-    .acti {
-        color: black;
-        text-decoration: none;
-        padding: 0px 25px 10px 25px ;
-        font-size: 17px;
-        font-weight: bold;
-    }
-
-    .color:hover {
-        border-bottom: solid;
-        border-top: unset;
-        color: #0065FC;
-    }
-    
-    .colors:hover {
-        border-top: solid;
-        color: #0065FC;
-    }
-    
-    .acti:hover {
-        border-bottom: solid;
-        border-top: unset;
-        color: #0065FC;
-    }
-
-    h1 {
-        margin-top: 30px;
-        margin-bottom: unset;
-        font-size: 20px;
-        font-weight: bolder;
-    }
-
-    #filtres {
-        display: unset;
-    }
-
-    .margin {
-        margin-right: 20px;
-        margin-top: unset;
-    }
-
-    .margine {
-        display: flex;
-        margin-top: 15px;
-        padding-top: 10px;
-        
-    }
-
-    #populaires {
-        margin: unset;
-        width: 100%;
-        border-radius: unset;
-    }
-    
-    #Flex {
-        display: flex;
-        justify-content: unset;
-    }
-
-    #populaires h2 {
-        font-size: 25px;
-        margin-top: 40px;
-    }
-
-    .fa-chart-line {
-        font-size: 25px;
-        margin-left: unset;
-        margin-top: 40px;
-        
-    }
-
-    #Liaison {
-        display: flex;
-        flex-direction: column-reverse;
-    }
-
-    #Hebergement {
-        width: 100%;
-        display: flex;
-        flex-direction: column; 
-        background-color: unset; 
-    }
-
-    #Hebergement h2{
-        font-size: 25px;
-        font-weight: bolder;
-        margin-left: 50px;
-        margin-bottom: 10px;
-        margin-top: 30px;
-    }
-
-    .Auberge {
-        width: 100%;
-        margin: 10px;
-    }
-
-    .vieux {
-        width: 100%;
-        height: 200px;
-        object-fit: cover;
-        border-radius: 20px 20px 0px 0px;
-    }
-    .port {
-        width: 100%;
-        height: 10px;
-        object-fit: unset;
-        border-radius: 20px 20px 0px 0px;
-    }
-    
-    .div2 .fort {
-        width: 100%;
-        height: 180px;
-        object-fit: cover;
-        border-radius: 20px 20px 0px 0px;
-    }
-    
-    .div3 .iles {
-        width: 100%;
-        height: 180px;
-        object-fit: cover;
-        border-radius: 20px 20px 0px 0px;
-    }
-    
-    .parc {
-        width: 100%;
-        height: 440px;
-        object-fit: cover;
-        border-radius: 20px 20px 0px 0px;
-    }
-    
-    .div5 .garde{
-        width: 100%;
-        height: 180px;
-        object-fit: cover;
-        border-radius: 20px 20px 0px 0px;
-    }
-    
-    .div6 .longchamp {
-        width: 100%;
-        height: 180px;
-        object-fit: cover;
-        border-radius: 20px 20px 0px 0px;
-    }
-    
-    .parent {
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: repeat(6, 1fr);
-        margin: 10px;
-        grid-column-gap: px;
-        grid-row-gap: 20px;
-        }
-        
-        .port { grid-area: 1 / 1 / 2 / 2; border-radius: 20px; border: solid #F2F2F2 1px; height: unset; box-shadow: #F2F2F2 5px 5px 10px; }
-        .div2 { grid-area: 2 / 1 / 3 / 2; border-radius: 20px; border: solid #F2F2F2 1px; height: unset; box-shadow: #F2F2F2 5px 5px 10px; }
-        .div3 { grid-area: 3 / 1 / 4 / 2; border-radius: 20px; border: solid #F2F2F2 1px; height: unset; box-shadow: #F2F2F2 5px 5px 10px; }
-        .div4 { grid-area: 4 / 1 / 5 / 2; border-radius: 20px; border: solid #F2F2F2 1px; height: unset; box-shadow: #F2F2F2 5px 5px 10px; }
-        .div5 { grid-area: 5 / 1 / 6 / 2; border-radius: 20px; border: solid #F2F2F2 1px; height: unset; box-shadow: #F2F2F2 5px 5px 10px; }
-        .div6 { grid-area: 6 / 1 / 7 / 2; border-radius: 20px; border: solid #F2F2F2 1px; height: unset; box-shadow: #F2F2F2 5px 5px 10px; }
-    
-        footer {
-            margin-top: 1400px;
-            display: flex;
-            flex-direction: column;
-            background-color: #F2F2F2;
-        }
-        
-        .pro {
-            margin-bottom: 30px;
-        }
-        
-        #nosheberg {
-            margin-left: 40px;
-            margin-top: 20px;
-        }
-        
-        .Nos {
-            margin-top: 20px;
-            margin-bottom: 20px;
-            font-size: 18px;
-            font-weight: bold;
-        }
-        
-        #Ass {
-            margin-left: 40px;
-            margin-top: 20px;
-        }
-        
-        .Assistance {
-            margin-bottom: 20px; 
-        }
-        
-        .asss {
-            margin-bottom: 40px;
-        }
+  .asss {
+    margin-bottom: 40px;
+  }
 }
