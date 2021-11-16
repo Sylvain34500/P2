@@ -316,7 +316,7 @@ input.holder::placeholder {
 }
 
 .hotel img {
-  width: 40%;
+  width: 46%;
   max-width: 170px;
   min-width: 125px;
   max-height: 140px;
@@ -650,16 +650,7 @@ footer {
 
   #Flex {
     display: flex;
-  }
-
-  .hotel img {
-    width: 40%;
-    max-width: 170px;
-    min-width: 125px;
-    max-height: 140px;
-    min-height: 140px;
-    border-radius: 20px 0px 0px 20px;
-    object-fit: cover;
+    justify-content: unset;
   }
 
   #populaires h2 {
