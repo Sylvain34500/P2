@@ -304,7 +304,7 @@ input.holder::placeholder {
   margin: 38px 30px 30px 30px;
 }
 
-.hotel {
+.hotel a {
   display: flex;
   width: 80%;
   border-radius: 20px;
